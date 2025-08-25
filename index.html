@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Laxmi Gupta — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ===== Header / Nav ===== -->
+  <header class="site-header">
+    <a href="#" class="logo">𝓛𝓪𝔁𝓶𝓲 <span>𝓖𝓾𝓹𝓽𝓪</span></a>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact" class="btn btn--sm">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section id="home" class="section hero">
+    <div class="container grid-2">
+      <div class="hero__text reveal">
+        <p class="eyebrow">Hello, I’m</p>
+        <h1>Laxmi Santosh Gupta</h1>
+        <p class="subtitle">Front-End Developer • Node/Express • React.js • UI Enthusiast</p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn btn--ghost">Hire Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/LaxmiGupta9967" aria-label="GitHub">🐙</a>
+          <a href="https://www.linkedin.com/in/laxmi-gupta-a86a19253" aria-label="LinkedIn">🔗</a>        
+        </div>
+      </div>
+      <div class="hero__media reveal">
+        <div class="avatar-wrap">
+          <!-- Replace with your image -->
+          <img src="/CodeAlpha_Task3_Portfolio/images/image.png" alt="Your portrait" class="avatar">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <div class="container narrow reveal">
+      <h2>About</h2>
+      <p>
+        I’m a web developer focused on building clean, accessible and performant web experiences.
+        I enjoy translating ideas into delightful interfaces with HTML, CSS, and JavaScript—plus a solid
+        backend using Node.js & Express and i am also familiar with React.js and bootstrap.
+      </p>
+      <div class="highlights">
+        <div class="chip">Fresher</div>
+        <div class="chip">Responsive Design</div>
+        <div class="chip">REST APIs</div>
+        <div class="chip">SEO Basics</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section alt">
+    <div class="container reveal">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5 / Semantic</li>
+            <li>CSS3, Flexbox, Grid</li>
+            <li>React.js</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Responsive </li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js, Express</li>
+            <li>REST APIs</li>
+            <li>MongoDB / SQL basics</li>
+            <li>Postman</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>Vite / Webpack</li>
+            <li>Netlify / Vercel</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section">
+    <div class="container reveal">
+      <h2>Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Card 1 -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="/CodeAlpha_Task3_Portfolio/images/Music-Player.png" alt="Project Music-Player">
+          </div>
+          <div class="project-body">
+            <h3>Music Player</h3>
+            <p> ➡️ Play, pause, next, and previous controls<br>
+                ➡️ Displays song title, artist, and duration<br>
+                ➡️ Progress bar and volume control<br>
+                ➡️ Playlist with shuffle, repeat, and autoplay<br>
+                ➡️ Responsive and user-friendly interface</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="actions">
+              <a class="btn btn--sm" href="#" target="_blank" rel="noreferrer">Live</a>
+              <a class="btn btn--ghost btn--sm" href="https://github.com/LaxmiGupta9967/CodeAlpha_Task4_MusicPlayer.git " target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="/CodeAlpha_Task3_Portfolio/images/Calculator.png" alt="Project Calculator 2">
+          </div>
+          <div class="project-body">
+            <h3>Calculator</h3>
+            <p> ➡️ Supports basic arithmetic operations: addition, subtraction, multiplication, division<br>
+    ➡️ Includes clear and delete functions<br>
+    ➡️ Keyboard input support for faster calculation<br>
+    ➡️ Clean and modern user interface<br>
+    ➡️ Smooth button effects for better user experience.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="actions">
+              <a class="btn btn--sm" href="#" target="_blank" rel="noreferrer">Live</a>
+              <a class="btn btn--ghost btn--sm" href=" https://github.com/LaxmiGupta9967/CodeAlpha_Task2_Calculator.git" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="project-card">
+          <div class="project-media">
+            <img src="/CodeAlpha_Task3_Portfolio/images/image-gallary.png" alt="Project image-gallary 3">
+          </div>
+          <div class="project-body">
+            <h3>image-gallary</h3>
+            <p>➡️ Grid-based layout with hover effects<br>
+    ➡️ Lightbox view for enlarged images<br>
+    ➡️ Next/previous navigation with smooth transitions<br>
+    ➡️ Responsive design for different screen sizes<br>
+    ➡️ Bonus: Image filters and category-based sorting.</p>
+            <div class="tags">
+              <span>Html</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="actions">
+              <a class="btn btn--sm" href="#" target="_blank" rel="noreferrer">Docs</a>
+              <a class="btn btn--ghost btn--sm" href="https://github.com/LaxmiGupta9967/Code-Alpha_Task1_ImageGallery.git" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Resume ===== -->
+  <section id="resume" class="section alt">
+    <div class="container narrow reveal">
+      <h2>Resume</h2>
+      <p>Download my latest resume to see education and projects.</p>
+      <a class="btn" href="/CodeAlpha_Task3_Portfolio/assets/Laxmi.CV.pdf" download>Download Resume (PDF)</a>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section">
+    <div class="container reveal">
+      <h2>Contact</h2>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-grid">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+        </div>
+        <label class="block">
+          <span>Message</span>
+          <textarea name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+        </label>
+        <div class="form-actions">
+          <button class="btn" type="submit">Send Message</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Laxmi Gupta. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
