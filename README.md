@@ -33,3 +33,11 @@ portfolio-website/
 |__ Image/            # Images
 └── README.md         # Project documentation  
 
+Screenshots!
+<img width="1819" height="873" alt="image" src="https://github.com/user-attachments/assets/14328131-038d-4e72-ac51-9b28e69faac0" />
+<img width="1800" height="863" alt="image" src="https://github.com/user-attachments/assets/ac6a1b19-a133-428c-9f7b-ee2dbe7ac0c1" />
+<img width="1790" height="836" alt="image" src="https://github.com/user-attachments/assets/9e611287-d950-4c75-87a3-69ffa1cbae51" />
+<img width="1808" height="860" alt="image" src="https://github.com/user-attachments/assets/9e3cd362-9f58-4048-bad1-37aa017e1b96" />
+
+
+
